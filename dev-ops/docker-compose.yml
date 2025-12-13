@@ -5,7 +5,7 @@ services:
   # yum install -y httpd-tools
   nginx:
     image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:1.25.1
-    container_name: nginx
+    container_name: nginxblog
     restart: always
     ports:
       - '443:443'
